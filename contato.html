@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Barbearia Lucas</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style-contato.css">
+</head>
+<body>
+    <header>
+        <div class = "caixa">
+            <h1><img src="logo.png" alt=""></h1>
+
+            <nav>
+                <ul>
+                    <li><a href="file:///D:/Users/lucas/Documents/ALURA%20HTML/html&cssA1.html">Home</a></li>
+                    <li><a href="file:///D:/Users/lucas/Documents/ALURA%20HTML%202/projetoA2.html">Produtos</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+    <main>
+        <form action="">
+            <label for="nomesobrenome">Nome e sobrenome</label>
+            <input type="text" name="" id="nomesobrenome" class="input-padrao">
+
+            <label for="email">Email</label>
+            <input type="text" name="" id="email" class="input-padrao">
+
+            <label for="telefone">Telefone</label>
+            <input type="text" name="" id="telefone" class="input-padrao">
+
+            <label for="mensagem">Mensagem</label>
+            <textarea name="" id="mensagem" cols="70" rows="10"></textarea class="input-padrao">
+
+            <div>
+                <p>Como prefere o nosso contato?</p>
+                <label for="radio-email"><input type="radio" name="contato" id="radio-email"> Email</label>
+            
+                <label for="radio-telefone"><input type="radio" name="contato" id="radio-telefone">Telefone</label>
+                
+                <label for="radio-whatsapp"><input type="radio" name="contato" id="radio-whatsapp">Whatsapp</label>
+                <!-- O "name=contato" em todos acima serve para o usuário
+            marcar somente uma opção-->
+            </div>
+
+            <div>
+            <p>Qual horário prefere ser atendido?</p>
+                <select name="" id="">
+                    <option value="">Manhã</option>
+                    <option value="">Tarde</option>
+                    <option value="">Noite</option>
+                </select>
+            </div>
+
+            <label class="checkbox"><input type="checkbox"> Gostaria de receber nossas novidades por email?</label>
+
+            <input type="submit" value="Enviar formulário">
+
+        </form>
+    </main>
+    <footer>
+        <img src="logo-branco.png" alt="">
+        <p class="copyright">&copy; Copyright Barbearia Lucas</p>
+    </footer>
+</body>
+</html>
