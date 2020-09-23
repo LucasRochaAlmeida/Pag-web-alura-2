@@ -1,3 +1,6 @@
+body{
+    font-family: 'Montserrat', sans-serif; /*em conjunto com o link no html*/
+}
 header{
     background: #bbbbbb;
     padding: 20px 0;
@@ -74,4 +77,78 @@ footer{
     color: white;
     font-size: 13px;
     margin: 20px 0;
+}
+/* css da pagina de introdução*/
+main{
+    
+}
+.banner{
+    width: 100%;
+}
+.principal{
+    padding: 3em 0;
+    background: #fefefe;
+    width: 940px;
+    margin: 0 auto;
+}
+.titulo-secundario{
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left; /*limpa a esquerda (por ter usado o float na imgUtensilios) */
+}
+.principal p{
+    margin: 0 0 1em;
+}
+.principal strong{
+    font-weight: bold;
+}
+.principal em{
+    font-style: italic;
+}
+.imgUtensilios{
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+.mapa{
+    padding: 3em 0;
+    background: linear-gradient(#fefefe, #888888);
+}
+.mapa p{
+    margin: 0 0 2em;
+    text-align: center;
+}
+.mapa-conteudo{
+    width: 940px;
+    margin: 0 auto;
+}
+.beneficios{
+    padding: 3em 0;
+    background: #888888;
+}
+.conteudo-beneficios{
+    width: 640px;
+    margin: 0 auto;
+}
+.lista-beneficios{
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+.itens{
+    line-height: 1.5;
+}
+.itens:before{
+    content: "✪";
+}
+.itens:first-child{
+    font-weight: bold;
+}
+.imagemBeneficios{
+    width: 60%;
+}
+.video{
+    width: 560px;
+    margin: 2em auto;
 }
